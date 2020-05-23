@@ -252,7 +252,9 @@ for i in range(1, n+1):
     sum+= i/(i+1)
 print(round(sum, 2))  # rounded to 2 decimal point
 ```
-
+**My Solution: Python 3 reduce()
+sumofop = reduce(lambda x,y: x+y,[x/(x+1) for x in range (1,6)])
+print(sumofop)
 ---
 
 [**_go to previous day_**](https://github.com/darkprinx/100-plus-Python-programming-exercises-extended/blob/master/Status/Day_14.md "Day 14")
